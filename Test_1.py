@@ -28,6 +28,7 @@ text_search = driver.find_element_by_xpath('//*[@id="divontheleft"]')
 #assert "Assert that this text is on the page" in text_search
 
 assert text_search.text == 'Assert that this text is on the page'
+print(text_search.text + ' is present on chapter 1 page ')
 
 #assert text_search.get_attribute('text') == 'Assert that this text is on the page'
 
